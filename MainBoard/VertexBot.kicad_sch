@@ -9066,7 +9066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 92.71 113.03 0)
 			(effects
 				(font
@@ -10471,7 +10471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 231.14 54.61 0)
 			(effects
 				(font
@@ -11474,7 +11474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 64.77 93.98 0)
 			(effects
 				(font
@@ -12025,7 +12025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vertex_Bot:OLED_0_96_INCH"
 			(at 186.69 41.91 0)
 			(effects
 				(font
@@ -12102,7 +12102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
 			(at 265.43 52.07 0)
 			(effects
 				(font
