@@ -6,3 +6,5 @@
 **/*.gbr
 **/*gbrjob
 **/*.dxf
+**/#auto_saved_files#
+**/*.lck
