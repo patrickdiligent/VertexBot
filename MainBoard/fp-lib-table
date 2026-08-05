@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/LIB_S101031MS02Q/KiCad")(options "")(descr ""))
+  (lib (name "Vertex_Bot")(type "KiCad")(uri "${KIPRJMOD}/Vertex_Bot.pretty")(options "")(descr ""))
+)

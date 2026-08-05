@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "S101031MS02Q"
+   (description "Slide Switches SPST 6A PC TH AG")
+   (family "SWI")
+   (package "S101031MS02Q")
+   (attribute "Datasheet Link" "https://www.ckswitches.com/media/1433/s.pdf")
+   (attribute "Geometry.Height" "18.41mm")
+   (attribute "Manufacturer_Name" "LITTELFUSE")
+   (attribute "Manufacturer_Part_Number" "S101031MS02Q")
+   (attribute "Mouser Part Number" "611-S101031MS02Q")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/S101031MS02Q?qs=rSrlmGad8O4HSGnv%2FMP6JQ%3D%3D")
+   (attribute "Arrow Part Number" "S101031MS02Q")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/s101031ms02q/ck?utm_currency=USD&region=nac")
+   (gate
+    (symbol "S101031MS02Q")
+    (pin "NC" 1 NC)
+    (pin "COM" 2 PS)
+   )
+  )
+  (symbol "S101031MS02Q"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "S101031MS02Q"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.92 17.845)
+      (pt 10.54 17.845)
+      (pt 10.54 -5.145)
+      (pt -2.92 -5.145)
+      (pt -2.92 17.845))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.92 17.845)
+      (pt 10.54 17.845)
+      (pt 10.54 -5.145)
+      (pt -2.92 -5.145)
+      (pt -2.92 17.845))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.92 18.845)
+      (pt 11.54 18.845)
+      (pt 11.54 -6.145)
+      (pt -3.92 -6.145)
+      (pt -3.92 18.845))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.4 0)
+      (arc (pt -3.400 0.000) (pt -3.500 -0.050) (pt -3.400 0.050) (start 180.0) (sweep .0))
+      (pt -3.5 0)
+      (arc (pt -3.500 0.000) (pt -3.500 -0.050) (pt -3.400 0.050) (start 180.0) (sweep -180.0))
+      (pt -3.4 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.000 6.350) (padstack 2))
+   (padstack 0
+    (hole 1.85)
+    (plated true)
+    (pad (layer TCOP) (square 2.775))
+    (pad (layer INNER) (round 2.775))
+    (pad (layer BCOP) (square 2.775))
+   )
+   (padstack 2
+    (hole 1.85)
+    (plated true)
+    (pad (layer TCOP) (round 2.775))
+    (pad (layer INNER) (round 2.775))
+    (pad (layer BCOP) (round 2.775))
+   )
+   (model "S101031MS02Q.stp"
+    (euler -90 180 -90)
+    (offset -3.809999942779541 6.510000228881836 4.099999904632568)
+   )
+  )
+ )
+)

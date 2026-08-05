@@ -1,0 +1,8 @@
+**/*-backups
+**/fp-info-cache
+**/*.bak
+**/*.zip
+**/*.pdf
+**/*.gbr
+**/*gbrjob
+**/*.dxf

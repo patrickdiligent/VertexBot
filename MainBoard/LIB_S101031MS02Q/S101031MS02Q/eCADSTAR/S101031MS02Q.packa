@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "S101031MS02Q"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2026-04-10-21:41:17)
+    (mountForm default
+        (footprintRef "S101031MS02Q")
+        (spec "System")
+    )
+)

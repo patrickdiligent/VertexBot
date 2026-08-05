@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'S101031MS02Q'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "S101031MS02Q" (!) = "", "S101031MS02Q", "Other", "611-S101031MS02Q", "https://www.mouser.co.uk/ProductDetail/CK/S101031MS02Q?qs=rSrlmGad8O4HSGnv%2FMP6JQ%3D%3D", "S101031MS02Q", "https://www.arrow.com/en/products/s101031ms02q/ck?utm_currency=USD&region=nac", "Slide Switches SPST 6A PC TH AG", "https://www.ckswitches.com/media/1433/s.pdf", "18.41 mm"
+END_PART
+
+END.

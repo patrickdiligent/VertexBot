@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=S101031MS02Q
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=4.3
+Released=2018-08-02 14:34:53
+Downloaded=2026-07-31 12:10:44
+3D=Y
