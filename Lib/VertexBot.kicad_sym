@@ -1149,6 +1149,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "MAX98357A"
@@ -1157,6 +1158,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
@@ -1204,22 +1206,25 @@
 				(hide yes)
 			)
 		)
-		(symbol "MAX98357A_1_1"
+		(symbol "MAX98357A_0_1"
 			(rectangle
-				(start -10.16 10.16)
-				(end 10.16 -10.16)
+				(start 0 2.54)
+				(end 7.62 -17.78)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
+		)
+		(symbol "MAX98357A_1_1"
 			(pin input line
-				(at -12.7 7.62 0)
+				(at -2.54 0 0)
 				(length 2.54)
-				(name "DIN"
+				(name "RC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1235,63 +1240,9 @@
 				)
 			)
 			(pin input line
-				(at -12.7 5.08 0)
+				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name "BCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 2.54 0)
-				(length 2.54)
-				(name "LRCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -2.54 0)
-				(length 2.54)
-				(name "~{SD_MODE}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -5.08 0)
-				(length 2.54)
-				(name "GAIN_SLOT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1306,48 +1257,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 -12.7 90)
+			(pin input line
+				(at -2.54 -5.08 0)
 				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -12.7 90)
-				(length 2.54)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -12.7 90)
-				(length 2.54)
-				(name "GND"
+				(name "DIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1362,17 +1275,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 12.7 270)
+			(pin input line
+				(at -2.54 -7.62 0)
 				(length 2.54)
-				(name "VDD"
+				(name "GAIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1380,30 +1293,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 12.7 270)
+			(pin input line
+				(at -2.54 -10.16 0)
 				(length 2.54)
-				(hide yes)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
+				(name "SD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1418,11 +1311,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 10.16 0 180)
+			(pin power_in line
+				(at -2.54 -12.7 0)
 				(length 2.54)
-				(hide yes)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1437,73 +1329,17 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 10.16 -5.08 180)
+			(pin power_in line
+				(at -2.54 -15.24 0)
 				(length 2.54)
-				(hide yes)
-				(name "NC"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 -7.62 180)
-				(length 2.54)
-				(hide yes)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "OUTP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 12.7 5.08 180)
-				(length 2.54)
-				(name "OUTN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1739,7 +1575,7 @@
 			)
 		)
 		(property "Value" "S13V30F5"
-			(at 2.54 -7.62 0)
+			(at 2.54 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,8 +1629,8 @@
 		)
 		(symbol "S13V30F5_0_1"
 			(rectangle
-				(start -2.54 -5.08)
-				(end 5.08 7.62)
+				(start -2.54 7.62)
+				(end 5.08 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -1860,8 +1696,26 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -1870,7 +1724,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
