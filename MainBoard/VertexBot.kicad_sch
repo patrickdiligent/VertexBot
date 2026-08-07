@@ -8465,7 +8465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 105.41 55.88 0)
 			(effects
 				(font
@@ -8828,7 +8828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DGQ10_2P18X1P72"
+		(property "Footprint" "Vertex_Bot:DGQ10_2P18X1P72"
 			(at 72.39 39.37 0)
 			(effects
 				(font
@@ -9568,7 +9568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:DGQ10_2P18X1P72"
+		(property "Footprint" "Vertex_Bot:DGQ10_2P18X1P72"
 			(at 129.54 39.37 0)
 			(effects
 				(font
@@ -11142,7 +11142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -11818,7 +11818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:FUSE_0031.8211_SCH"
+		(property "Footprint" "Vertex_Bot:FUSE_0031.8211_SCH"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -12167,7 +12167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCad:S101031MS02Q"
+		(property "Footprint" "Vertex_Bot:S101031MS02Q"
 			(at 64.77 90.17 0)
 			(effects
 				(font
