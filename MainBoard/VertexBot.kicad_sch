@@ -4180,7 +4180,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 27.94 85.09 0)
+		(at 27.94 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4399,6 +4399,12 @@
 		(diameter 0)
 		(color 0 0 255 1)
 		(uuid "834e2c3d-f17a-4cb8-acf6-67d341a3c6ab")
+	)
+	(junction
+		(at 39.37 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf1b762-6a2d-4faf-9ac4-96a60bc3e050")
 	)
 	(junction
 		(at 116.84 68.58)
@@ -4677,7 +4683,7 @@
 		(uuid "fddd4f0f-6076-4123-8452-24e06c139214")
 	)
 	(junction
-		(at 39.37 85.09)
+		(at 39.37 87.63)
 		(diameter 0)
 		(color 0 0 255 1)
 		(uuid "fe22385d-8de6-407a-b013-bcb020965135")
@@ -4687,10 +4693,6 @@
 		(diameter 0)
 		(color 0 0 255 1)
 		(uuid "febeb962-c6be-4ab2-b33b-ecc468dac820")
-	)
-	(no_connect
-		(at 36.83 87.63)
-		(uuid "05d23f1d-3916-434f-9d0a-093a7685b1c0")
 	)
 	(no_connect
 		(at 102.87 49.53)
@@ -5288,6 +5290,16 @@
 			(type default)
 		)
 		(uuid "2a14d7e3-c261-48b1-8854-407ad1e8863d")
+	)
+	(wire
+		(pts
+			(xy 39.37 90.17) (xy 59.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b74800d-69d7-4c44-a81d-4d60209b84b8")
 	)
 	(wire
 		(pts
@@ -6223,7 +6235,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 85.09) (xy 39.37 85.09)
+			(xy 36.83 87.63) (xy 39.37 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6771,6 +6783,17 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 90.17) (xy 39.37 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "93b994b4-c9e6-4336-b958-73705d433224")
+	)
+	(wire
+		(pts
 			(xy 111.76 110.49) (xy 111.76 124.46)
 		)
 		(stroke
@@ -6781,7 +6804,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 85.09) (xy 39.37 124.46)
+			(xy 39.37 87.63) (xy 39.37 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7086,7 +7109,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 68.58) (xy 39.37 85.09)
+			(xy 39.37 68.58) (xy 39.37 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7139,7 +7162,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 90.17) (xy 59.69 90.17)
+			(xy 36.83 90.17) (xy 39.37 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8413,7 +8436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 110.49 163.83 0)
 			(effects
 				(font
@@ -8988,7 +9011,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 31.75 87.63 0)
 		(mirror y)
 		(unit 1)
@@ -9006,7 +9029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "Battery"
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -9016,7 +9039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 31.75 87.63 0)
 			(effects
 				(font
@@ -9034,7 +9057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 31.75 87.63 0)
 			(effects
 				(font
@@ -9048,9 +9071,6 @@
 		)
 		(pin "2"
 			(uuid "c69b2cd1-0f3f-4ec5-b866-671fc784b361")
-		)
-		(pin "3"
-			(uuid "3b9f23e3-dc4d-473c-ab1e-50ebf253444f")
 		)
 		(instances
 			(project ""
@@ -9808,7 +9828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 127 29.21 0)
 			(effects
 				(font
@@ -10082,7 +10102,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -10154,7 +10174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 127.9652 55.88 0)
 			(effects
 				(font
@@ -10438,7 +10458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical"
+		(property "Footprint" "Vertex_Bot:CAM_B_BOARD_VERTICAL"
 			(at 190.5 123.19 0)
 			(effects
 				(font
@@ -10617,7 +10637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 72.39 29.21 0)
 			(effects
 				(font
@@ -10766,7 +10786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vertex_Bot:S13V30F5"
+		(property "Footprint" "Vertex_Bot:S13V30F5_VERTICAL"
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -10843,7 +10863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical"
+		(property "Footprint" "Vertex_Bot:CAM_A_BOARD_VERTICAL"
 			(at 74.93 132.08 0)
 			(effects
 				(font
@@ -11089,7 +11109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 139.7 163.83 0)
 			(effects
 				(font
@@ -11800,7 +11820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vertex_Bot:S101031MS02Q"
+		(property "Footprint" "Vertex_Bot:L101011MS02Q"
 			(at 64.77 90.17 0)
 			(effects
 				(font
@@ -11809,7 +11829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.element14.com/c-k-components/s101031ms02q/slide-switch-spst-6a-250v-tht/dp/2931779"
+		(property "Datasheet" "https://au.mouser.com/en/ProductDetail/CK/L101011MS02Q?qs=LgMIjt8LuD9j8DCrk%2FIjYQ%3D%3D"
 			(at 64.77 90.17 0)
 			(effects
 				(font

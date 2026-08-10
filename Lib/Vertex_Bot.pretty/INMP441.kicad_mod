@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "INMP441"
-		(at 0 1 0)
+		(at 3.5052 7.5184 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "acc292ce-d868-444c-bdb0-591e35db1146")
@@ -135,6 +135,17 @@
 		(uuid "062ae186-5d7d-465a-9467-16cea2a0b7e1")
 	)
 	(fp_circle
+		(center 3.7846 2.534927)
+		(end 10.4394 0.604527)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f04cb9d5-60c9-44e9-85dc-f3010bbb8ae2")
+	)
+	(fp_circle
 		(center 3.81 2.54)
 		(end 9.8552 6.0706)
 		(stroke
@@ -244,6 +255,30 @@
 		)
 		(layer "F.Fab")
 		(uuid "4abeadae-ad74-4180-af14-fc6511a97b5e")
+	)
+	(fp_circle
+		(center 3.81 2.544063)
+		(end 10.4394 0.613663)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ec159b3c-1030-4150-8bbd-0bbcb04020d4")
+	)
+	(fp_text user "INMP441"
+		(at 0.2032 8.0772 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "381ab60d-79e4-4788-ba1d-e6f6a98b3dbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)

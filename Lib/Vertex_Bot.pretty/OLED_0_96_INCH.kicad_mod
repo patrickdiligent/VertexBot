@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "OLED_0_96_INCH"
-		(at 0 1 0)
+		(at 12.5476 0.3556 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "0e1e5c44-96e7-4a12-938a-4f029491169f")
@@ -93,6 +93,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6a1cf2b4-c642-4102-90e2-874a570fb2d3")
+	)
+	(fp_rect
+		(start -1.4732 -9.1948)
+		(end 24.3332 16.637)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c5b8a8d3-17ba-4626-9799-559b3e21453c")
 	)
 	(fp_line
 		(start -1.6256 -9.3726)
@@ -184,6 +195,19 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "0f2eff37-b8c7-41cd-a5b0-e98465c96964")
+	)
+	(fp_text user "OLED_0_96_INCH"
+		(at 6.2484 0.9398 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aa4014c5-f8b1-4b26-9af4-9516602f1752")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)

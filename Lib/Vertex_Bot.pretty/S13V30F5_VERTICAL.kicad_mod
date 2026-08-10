@@ -1,4 +1,4 @@
-(footprint "S13V30F5"
+(footprint "S13V30F5_VERTICAL"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "S13V30F5"
+	(property "Value" "S13V30F5_VERTICAL"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -116,7 +116,7 @@
 	)
 	(fp_line
 		(start -1.013 -5.5276)
-		(end 21.841 -5.5276)
+		(end 2.7178 -5.5342)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -136,7 +136,7 @@
 	)
 	(fp_line
 		(start -1.013 17.3264)
-		(end 21.841 17.3264)
+		(end 2.7178 17.3198)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -145,11 +145,11 @@
 		(uuid "fc28b2dd-adec-4289-9a2f-9876a3b2a562")
 	)
 	(fp_line
-		(start 21.841 17.3264)
-		(end 21.841 -5.5276)
+		(start 2.7178 17.3198)
+		(end 2.7178 -5.5342)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "82ec2b8a-6b16-4699-9d95-46e880b3a51d")
@@ -203,6 +203,19 @@
 		)
 		(layer "F.Fab")
 		(uuid "7cbaa184-ec01-45be-987d-764740ebe148")
+	)
+	(fp_text user "S13V30F5"
+		(at -2.3876 15.4178 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9048279a-f56a-4d10-ae09-274694ee0015")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.79 5.88 90)

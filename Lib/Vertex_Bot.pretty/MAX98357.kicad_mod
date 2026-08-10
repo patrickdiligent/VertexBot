@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0.0254 -1.905 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b0786eac-c777-425d-8f7f-822c55bcb4c9")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "MAX98357"
-		(at 0 1 0)
+		(at 8.255 6.8439 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "19c471cc-7809-48a9-aadd-467a7ce76931")
@@ -113,6 +113,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "d14713dd-24b2-4f25-82fa-ab7c5b40eeaa")
+	)
+	(fp_rect
+		(start -0.8636 -0.889)
+		(end 17.3736 17.5768)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4223eb85-d10d-4ac4-8205-192b2c149856")
 	)
 	(fp_line
 		(start -1.01 -1.02)
@@ -214,6 +225,19 @@
 		(layer "F.Fab")
 		(uuid "4cbc99cd-5d7e-4821-97b6-60a4fbf5f545")
 	)
+	(fp_text user "MAX98357A"
+		(at 4.3688 7.3914 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "44475721-1fd2-4b18-bdd4-32510ad04a1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0.79 8.4 90)
 		(layer "F.Fab")
@@ -226,7 +250,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 8.255 8.3439 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "bbc66502-69b3-4ea3-a8d6-8f17988123e9")

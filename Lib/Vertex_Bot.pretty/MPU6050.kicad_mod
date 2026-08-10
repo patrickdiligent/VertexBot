@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "MPU6050"
-		(at 0 1 0)
+		(at 6.3246 0.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e7ce924d-5175-4c5f-8d8c-68878f772e42")
@@ -114,6 +114,17 @@
 		(layer "F.SilkS")
 		(uuid "dc45c16b-410a-4c83-86a7-f6aea4c7d225")
 	)
+	(fp_rect
+		(start -2.4384 -2.4384)
+		(end 15.0876 18.6436)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6bcc51e7-ef98-47c6-acb1-78caeb12d8b4")
+	)
 	(fp_line
 		(start -2.54 -2.54)
 		(end -2.54 18.78)
@@ -204,6 +215,19 @@
 		(layer "F.Fab")
 		(uuid "73f6205b-2c4c-4e84-831c-2ba4b3bf5fc3")
 	)
+	(fp_text user "MPU6050"
+		(at 2.7686 1.1176 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "da552b3a-77bb-4510-a228-bd48d2f1e73a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at -0.77 8.12 90)
 		(layer "F.Fab")
@@ -216,7 +240,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 6.4516 2.2606 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b1670aab-bcfd-4d2a-ac08-7d69aaf5418f")

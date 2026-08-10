@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model L101011MS02Q
+#/21817930/2084614/2.50/2/2/Switch
+DEF L101011MS02Q S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "L101011MS02Q" 650 200 50 H V L CNN
+F2 "L101011MS02Q" 650 100 50 H I L CNN
+F3 "https://www.alldatasheet.com/datasheet-pdf/download/164145/ITT/L101011MS02Q.html" 650 0 50 H I L CNN
+F4 "C&K L Series Miniature Slide Switches , SPST Through Hole , 2 A to 4 A , 125 VAC to 250 VAC  , -30C ~ 65C" 650 -100 50 H I L CNN "Description"
+F5 "14.18" 650 -200 50 H I L CNN "Height"
+F6 "611-L101011MS02Q" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CK/L101011MS02Q?qs=LgMIjt8LuD9j8DCrk%2FIjYQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "L101011MS02Q" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
