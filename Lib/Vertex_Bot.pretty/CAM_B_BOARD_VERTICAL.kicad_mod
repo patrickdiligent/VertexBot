@@ -17,8 +17,8 @@
 		)
 	)
 	(property "Value" "CAM_B_BOARD_VERTICAL"
-		(at -1.27 20.55 0)
-		(layer "F.Fab")
+		(at 2.9972 10.7696 90)
+		(layer "F.SilkS")
 		(uuid "52f9d264-f83a-43a1-98a6-fcc636659d4c")
 		(effects
 			(font
@@ -133,17 +133,7 @@
 		(uuid "08facc26-88e9-42b2-b06f-7733f47e70e2")
 	)
 	(fp_line
-		(start -4.3668 21.4468)
-		(end -4.3668 -27.9532)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "0e4bad58-d856-43c4-b2b5-7195261f89c0")
-	)
-	(fp_line
-		(start -4.3488 -27.94)
+		(start -5.9668 -27.9532)
 		(end 29.6512 -27.94)
 		(stroke
 			(width 0.1)
@@ -151,6 +141,16 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "c7694346-b9cb-45d1-84f0-b14bfece4518")
+	)
+	(fp_line
+		(start -5.9668 21.4468)
+		(end -5.9668 -27.9532)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0e4bad58-d856-43c4-b2b5-7195261f89c0")
 	)
 	(fp_line
 		(start 1.5768 -10.9732)
@@ -164,7 +164,7 @@
 	)
 	(fp_line
 		(start 1.5768 21.446954)
-		(end -4.3668 21.4468)
+		(end -5.9668 21.4468)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -184,7 +184,7 @@
 	)
 	(fp_line
 		(start 29.6512 -10.94)
-		(end 1.5948 -10.96)
+		(end 1.5768 -10.9732)
 		(stroke
 			(width 0.1)
 			(type default)

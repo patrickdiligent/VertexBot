@@ -16,9 +16,10 @@
 		)
 	)
 	(property "Value" "OLED_0_96_INCH"
-		(at 12.5476 0.3556 0)
+		(at 12.7 2.9718 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
+		(hide yes)
 		(uuid "0e1e5c44-96e7-4a12-938a-4f029491169f")
 		(effects
 			(font
@@ -53,7 +54,27 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
+	(fp_line
+		(start -1.524 -9.1694)
+		(end -1.524 16.6624)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3054152d-9e16-47f7-a6c7-e6892f252c3f")
+	)
+	(fp_line
+		(start -1.524 16.6624)
+		(end 24.2824 16.6624)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "350be775-7fd7-4a12-9381-0ec4b1237294")
+	)
 	(fp_line
 		(start -1.3927 -1.0668)
 		(end -1.3927 8.6868)
@@ -94,20 +115,29 @@
 		(layer "F.SilkS")
 		(uuid "6a1cf2b4-c642-4102-90e2-874a570fb2d3")
 	)
-	(fp_rect
-		(start -1.4732 -9.1948)
-		(end 24.3332 16.637)
+	(fp_line
+		(start 24.2824 -9.1694)
+		(end -1.524 -9.1694)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "c5b8a8d3-17ba-4626-9799-559b3e21453c")
+		(uuid "9b2fb7ed-6728-4b24-bc59-f0ab608b5e19")
 	)
 	(fp_line
-		(start -1.6256 -9.3726)
-		(end -1.6256 16.8402)
+		(start 24.2824 -9.1694)
+		(end 24.2824 16.6624)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2dd4e373-bcd0-48f3-9837-98e1c1932fcc")
+	)
+	(fp_line
+		(start -1.6002 -1.1684)
+		(end -1.6002 8.7884)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -116,8 +146,8 @@
 		(uuid "9f4ea6b4-50f6-44b9-ae2f-6dac43cbbaf1")
 	)
 	(fp_line
-		(start -1.6256 -9.3726)
-		(end 24.4348 -9.3726)
+		(start -1.6002 -1.1684)
+		(end 1.471325 -1.16205)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -126,8 +156,8 @@
 		(uuid "57fefdc3-8f63-41a3-8a35-7e7c72d8c7a7")
 	)
 	(fp_line
-		(start -1.6256 16.8402)
-		(end 24.4348 16.8402)
+		(start -1.6002 8.7884)
+		(end 1.471325 8.7884)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -136,8 +166,8 @@
 		(uuid "ddc03666-44f0-4320-aaa5-6103ffc057f1")
 	)
 	(fp_line
-		(start 24.4348 -9.3726)
-		(end 24.4348 16.8402)
+		(start 1.471325 -1.16205)
+		(end 1.471325 8.7884)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -197,7 +227,7 @@
 		(uuid "0f2eff37-b8c7-41cd-a5b0-e98465c96964")
 	)
 	(fp_text user "OLED_0_96_INCH"
-		(at 6.2484 0.9398 0)
+		(at 6.0452 -3.048 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "aa4014c5-f8b1-4b26-9af4-9516602f1752")
