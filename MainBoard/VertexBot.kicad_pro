@@ -472,6 +472,24 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Wires-3.3V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 153, 0)"
+      },
+      {
+        "name": "Wires-5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(194, 0, 0)"
+      },
+      {
+        "name": "Wires-GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 255)"
       }
     ],
     "meta": {
@@ -479,7 +497,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Wires-5V",
+        "pattern": "5V"
+      },
+      {
+        "netclass": "Wires-3.3V",
+        "pattern": "3.3V-A"
+      },
+      {
+        "netclass": "Wires-3.3V",
+        "pattern": "3.3V-B"
+      },
+      {
+        "netclass": "Wires-GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
