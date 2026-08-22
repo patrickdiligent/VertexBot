@@ -4270,7 +4270,7 @@
 		(uuid 5778546a-e5fc-4779-9700-4f301e1b6c71)
 	)
 	(rectangle
-		(start 116.84 111.76)
+		(start 120.65 111.76)
 		(end 148.59 137.16)
 		(stroke
 			(width 0)
@@ -4306,8 +4306,8 @@
 		(uuid b8957058-1d47-4246-b868-7d8da9d9e11f)
 	)
 	(rectangle
-		(start 116.84 81.28)
-		(end 163.83 109.22)
+		(start 120.65 82.55)
+		(end 167.64 110.49)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4397,7 +4397,7 @@
 	)
 	(text "Analog mics on right and left sides"
 		(exclude_from_sim no)
-		(at 140.97 105.41 0)
+		(at 144.78 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4435,9 +4435,9 @@
 		)
 		(uuid "71676a34-db23-45ae-b83d-b2bb75bf4014")
 	)
-	(text "Microcroconllers - 2 x ESP32 S3 CAM boards\n\nThe controller boards are fixated onto backboards which then connect vertically \nto this main board on Connectors Pin Socket 2x7 and 2x8. There are 11 GPIO drawn\nout to each of the connectors, and with 3.3V, GND and 5v, the total is 14. However,\nthe ESP32-S3 CAM A connects to a 2x8 connector in the sole purpose of prevent\nmistaken connections.\n"
+	(text "Microcroconllers - 2 x ESP32 S3 CAM boards\n\nThe controller boards are fixated onto backboards which then connect vertically \nto this main board on Connectors Pin Socket 2x7 and 2x8. There are 11 GPIO drawn\nout to each of the connectors, and with 3.3V, GND and 5v, the total is 14. However,\nthe ESP32-S3 CAM A connects to a 2x8 connector in the sole purpose of prevent\nmistaken connections. The boards are facing to the sides - left and righ - for better\ncamera field of view.\n"
 		(exclude_from_sim no)
-		(at 76.2 147.32 0)
+		(at 74.93 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6668,7 +6668,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 152.4 92.71 180)
+		(at 156.21 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6678,7 +6678,7 @@
 		)
 		(uuid "35da1b7b-a011-4c0d-87ca-4b212ea60df9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.5443 92.71 0)
+			(at 149.3543 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +6998,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 127 92.71 180)
+		(at 130.81 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7008,7 +7008,7 @@
 		)
 		(uuid "6cf16715-0a75-4238-a336-1efdd31b0989")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.1443 92.71 0)
+			(at 123.9543 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7396,7 @@
 	)
 	(global_label "3.3V-A"
 		(shape input)
-		(at 127 95.25 180)
+		(at 130.81 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7406,7 +7406,7 @@
 		)
 		(uuid "9709316d-949e-414e-b0e6-8472ed82ce54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.2414 95.25 0)
+			(at 121.0514 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8146,7 @@
 	)
 	(global_label "MIC_A"
 		(shape output)
-		(at 127 90.17 180)
+		(at 130.81 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8156,7 +8156,7 @@
 		)
 		(uuid "d3625424-12ae-4958-95eb-6b45d9ea6ba0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.6324 90.17 0)
+			(at 122.4424 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +8366,7 @@
 	)
 	(global_label "3.3V-B"
 		(shape input)
-		(at 152.4 95.25 180)
+		(at 156.21 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8376,7 +8376,7 @@
 		)
 		(uuid "e8476800-7ee3-4e90-b957-3acaed22a1b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.46 95.25 0)
+			(at 146.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8476,7 +8476,7 @@
 	)
 	(global_label "MIC_B"
 		(shape output)
-		(at 152.4 90.17 180)
+		(at 156.21 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8486,7 +8486,7 @@
 		)
 		(uuid "efae4ab5-af97-48bc-b76b-13cbabb7a1fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.851 90.17 0)
+			(at 147.661 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,7 +8971,7 @@
 	(symbol
 		(lib_name "MAX4466_1")
 		(lib_id "VertexBot:MAX4466")
-		(at 129.54 87.63 0)
+		(at 133.35 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8979,7 +8979,7 @@
 		(dnp no)
 		(uuid "1c93ec54-108b-4c5d-8af5-3b75de40690d")
 		(property "Reference" "U10"
-			(at 127 99.06 0)
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8988,7 +8988,7 @@
 			)
 		)
 		(property "Value" "MAX4466 (LEFT)"
-			(at 127 101.6 0)
+			(at 130.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,7 +8997,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 129.54 87.63 0)
+			(at 133.35 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,7 +9006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 87.63 0)
+			(at 133.35 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9015,7 +9015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 87.63 0)
+			(at 133.35 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11842,7 +11842,7 @@
 	)
 	(symbol
 		(lib_id "VertexBot:MAX4466")
-		(at 154.94 87.63 0)
+		(at 158.75 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11850,7 +11850,7 @@
 		(dnp no)
 		(uuid "db4d71e6-3110-4b5d-8d48-1948b8a4f93d")
 		(property "Reference" "U11"
-			(at 152.4 99.06 0)
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,7 +11859,7 @@
 			)
 		)
 		(property "Value" "MAX4466 (RIGHT)"
-			(at 152.4 101.6 0)
+			(at 156.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11868,7 +11868,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 154.94 87.63 0)
+			(at 158.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11877,7 +11877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 87.63 0)
+			(at 158.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,7 +11886,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 87.63 0)
+			(at 158.75 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
