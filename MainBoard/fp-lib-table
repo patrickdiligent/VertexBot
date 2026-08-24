@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Vertex_Bot")(type "KiCad")(uri "${KIPRJMOD}/../Lib/Vertex_Bot.pretty")(options "")(descr ""))
   (lib (name "MountingHole")(type "KiCad")(uri "${KIPRJMOD}/../Lib/MountingHole.pretty")(options "")(descr ""))
+  (lib (name "DRV8830DGQR")(type "KiCad")(uri "${KIPRJMOD}/../Lib/DRV8830DGQR")(options "")(descr "")(disabled))
 )

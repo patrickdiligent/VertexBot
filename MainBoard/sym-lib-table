@@ -4,4 +4,5 @@
   (lib (name "S101031MS02Q")(type "KiCad")(uri "${KIPRJMOD}/../Lib/S101031MS02Q.kicad_sym")(options "")(descr ""))
   (lib (name "DRV8830")(type "KiCad")(uri "${KIPRJMOD}/../Lib/DRV8830.kicad_sym")(options "")(descr ""))
   (lib (name "FUSE_0031.8211_SCH")(type "KiCad")(uri "${KIPRJMOD}/../Lib/FUSE_0031.8211_SCH.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8830DGQR")(type "KiCad")(uri "${KIPRJMOD}/../Lib/DRV8830DGQR/DRV8830DGQR.kicad_sym")(options "")(descr "")(disabled))
 )

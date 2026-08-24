@@ -129,7 +129,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -665,10 +665,6 @@
     [
       "c8a6bb21-9589-473f-ab9e-a7c4f2be01df",
       "Root"
-    ],
-    [
-      "f92314c8-cc1f-42ab-8ec4-9606005e8d17",
-      "Mounting Holes"
     ]
   ],
   "text_variables": {}
