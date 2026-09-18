@@ -187,7 +187,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -503,14 +504,15 @@
         "name": "Wires-GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
-        "schematic_color": "rgb(0, 0, 255)"
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 2.3
       },
       {
-        "name": "wires-3A",
+        "name": "wires-4A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(132, 0, 132)",
-        "track_width": 1.7
+        "track_width": 2.3
       }
     ],
     "meta": {
@@ -536,7 +538,7 @@
         "pattern": "GND"
       },
       {
-        "netclass": "wires-3A",
+        "netclass": "wires-4A",
         "pattern": "Vbat"
       },
       {
@@ -544,11 +546,11 @@
         "pattern": "U4-ISENSE"
       },
       {
-        "netclass": "wires-3A",
+        "netclass": "wires-4A",
         "pattern": "Vin"
       },
       {
-        "netclass": "wires-3A",
+        "netclass": "wires-4A",
         "pattern": "SWITCH"
       }
     ]
@@ -687,7 +689,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/Users/patrick/Desktop/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

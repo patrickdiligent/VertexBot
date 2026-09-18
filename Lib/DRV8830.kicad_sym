@@ -305,6 +305,25 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at 30.48 0 180)
+				(length 2.54)
+				(hide yes)
+				(name "V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
