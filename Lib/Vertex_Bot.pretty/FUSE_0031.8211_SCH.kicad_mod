@@ -222,4 +222,15 @@
 		(uuid "b06bbe27-c855-4e73-b4d6-b21f66d913fd")
 	)
 	(embedded_fonts no)
+	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/31-8211.stp"
+		(offset
+			(xyz 12.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -0)
+		)
+	)
 )

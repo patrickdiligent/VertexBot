@@ -112,17 +112,6 @@
 		(layer "F.SilkS")
 		(uuid "a0258538-86e9-4059-9ae8-66bd8568e229")
 	)
-	(fp_rect
-		(start -1.6002 -3.9751)
-		(end 18.4912 9.1059)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "faeebdfd-52ba-4728-a6b0-c0779dad9934")
-	)
 	(fp_line
 		(start -1.8 -1.8)
 		(end 1.75 -1.8)
@@ -258,6 +247,28 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/Max4466.step"
+		(offset
+			(xyz -1.5 -9.5 11.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 180 90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 -5 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -180)
 		)
 	)
 )

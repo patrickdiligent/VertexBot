@@ -238,15 +238,37 @@
 		(uuid "d4271e22-1dba-4b3e-ab60-30b83897bdb3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
+	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/Max4466.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -2 -9.5 11)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -180 90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x03_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Horizontal.step"
+		(offset
+			(xyz -1.5 0 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
 		)
 	)
 )

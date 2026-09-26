@@ -412,7 +412,7 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 		(offset
-			(xyz 7.5 -5 9.5)
+			(xyz 7.5 -5 11)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -452,6 +452,17 @@
 		)
 		(rotate
 			(xyz -0 -0 -0)
+		)
+	)
+	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/INMP441-INMP441 I2S Microphone Module v15.step"
+		(offset
+			(xyz 3.7 -2.5 12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -180)
 		)
 	)
 )

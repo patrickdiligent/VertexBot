@@ -9823,7 +9823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vertex_Bot:MAX4466_VERTICAL"
+		(property "Footprint" "Vertex_Bot:MAX4466_HORIZONTAL"
 			(at 106.68 180.34 0)
 			(effects
 				(font
@@ -14364,7 +14364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Vertex_Bot:MAX4466_VERTICAL"
+		(property "Footprint" "Vertex_Bot:MAX4466_HORIZONTAL"
 			(at 132.08 180.34 0)
 			(effects
 				(font
@@ -14660,7 +14660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.digikey.com/en/products/detail/schurter-inc/0031-8211/669926"
 			(at 82.55 60.96 0)
 			(effects
 				(font
@@ -15425,7 +15425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/c-k/L101011MS02Q/484142"
 			(at 74.93 60.96 0)
 			(effects
 				(font
