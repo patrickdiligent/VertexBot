@@ -7,7 +7,7 @@
 		(at 0.0254 -1.905 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b0786eac-c777-425d-8f7f-822c55bcb4c9")
+		(uuid "63409168-55f7-4b4d-885b-575d12c50ca7")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 7.9248 -3.4558 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "19c471cc-7809-48a9-aadd-467a7ce76931")
+		(uuid "24c36a81-b636-4709-ac2b-052f617adb46")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7492fa2f-f629-4802-9af2-8fd3e7cde405")
+		(uuid "f7d62691-9ad3-45d1-bef9-2e92aa09f382")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ba6efe8b-256d-459b-b7af-da2bee9f193b")
+		(uuid "9beee439-39db-49aa-88ea-b6be95ace9d3")
 		(effects
 			(font
 				(size 1 1)
@@ -54,6 +54,36 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -0.8636 -0.889)
+		(end 3.3 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c92def18-9e74-4d9a-8c3c-9eac7c4b0925")
+	)
+	(fp_line
+		(start -0.8636 17.5768)
+		(end -0.8636 -0.889)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b11c88d-66a6-46ba-9e13-b152f67b7ce3")
+	)
+	(fp_line
+		(start -0.8636 17.5768)
+		(end 3.4 17.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97f2c5b0-5f8c-4076-b761-badd1869133a")
+	)
 	(fp_line
 		(start -0.54 2.05)
 		(end -0.54 17.35)
@@ -114,16 +144,35 @@
 		(layer "F.SilkS")
 		(uuid "d14713dd-24b2-4f25-82fa-ab7c5b40eeaa")
 	)
-	(fp_rect
-		(start -0.8636 -0.889)
+	(fp_line
+		(start 15.6 -0.9)
+		(end 17.3736 -0.889)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2feaa4f7-25eb-4794-a266-4cb6cdbe9438")
+	)
+	(fp_line
+		(start 17.3736 -0.889)
 		(end 17.3736 17.5768)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "4223eb85-d10d-4ac4-8205-192b2c149856")
+		(uuid "d3000c5f-62b7-4955-ae37-e51def0e9cb9")
+	)
+	(fp_line
+		(start 17.3736 17.5768)
+		(end 15.6 17.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5db72ca2-13f3-4d79-999e-14cfb6ec0c63")
 	)
 	(fp_line
 		(start -1.01 -1.02)
@@ -308,4 +357,26 @@
 		(uuid "a7b0d656-38e5-40f2-b599-17281f7721c5")
 	)
 	(embedded_fonts no)
+	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/adafruit-MAX98357.step"
+		(offset
+			(xyz 7 -7.59 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x07_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -66,6 +66,16 @@
 		(uuid "3054152d-9e16-47f7-a6c7-e6892f252c3f")
 	)
 	(fp_line
+		(start -1.524 -9.1694)
+		(end 0.5 -9.1694)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e57962d-39a5-45c0-b837-986633cd9bb8")
+	)
+	(fp_line
 		(start -1.524 16.6624)
 		(end 24.2824 16.6624)
 		(stroke
@@ -73,7 +83,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "350be775-7fd7-4a12-9381-0ec4b1237294")
+		(uuid "47922a67-5031-4579-b12a-317419dae754")
 	)
 	(fp_line
 		(start -1.3927 -1.0668)
@@ -117,13 +127,13 @@
 	)
 	(fp_line
 		(start 24.2824 -9.1694)
-		(end -1.524 -9.1694)
+		(end 23.4 -9.1694)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "9b2fb7ed-6728-4b24-bc59-f0ab608b5e19")
+		(uuid "3e61450c-9be5-456a-8206-79a8f4780df3")
 	)
 	(fp_line
 		(start 24.2824 -9.1694)
@@ -284,4 +294,26 @@
 		(uuid "f79192a2-a428-4616-a6e2-428b34cfc7f4")
 	)
 	(embedded_fonts no)
+	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/0.96'' OLED Display.step"
+		(offset
+			(xyz 12.5 -4 12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

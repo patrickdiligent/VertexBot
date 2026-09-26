@@ -316,4 +316,26 @@
 		(uuid "3b48193c-d6a6-4338-afa8-340e7a1694ba")
 	)
 	(embedded_fonts no)
+	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/MPU6050.stp"
+		(offset
+			(xyz -10.5 -15.5 -2.5)
+		)
+		(scale
+			(xyz 1 1 1.0001)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
