@@ -17286,7 +17286,7 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 161.36 86.9 0)
+		(at 142.84 113.41 0)
 		(layer "F.SilkS")
 		(uuid "14412c72-c7b6-4a73-a6e2-2ab22a7de166")
 		(effects
@@ -17418,7 +17418,7 @@
 		)
 	)
 	(gr_text "3.3V"
-		(at 77.34 92.02 0)
+		(at 88.92 108.15 0)
 		(layer "F.SilkS")
 		(uuid "a006d32b-1028-4cc9-8556-e4a310349c3d")
 		(effects
