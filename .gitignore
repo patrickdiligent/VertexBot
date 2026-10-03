@@ -8,3 +8,4 @@
 **/*.dxf
 **/#auto_saved_files#
 **/*.lck
+_autosave*
