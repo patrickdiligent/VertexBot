@@ -1605,17 +1605,6 @@
 			(uuid "bf6a9ad1-7b77-4547-90e0-f63fe497c29d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x08_P2.54mm_Horizontal.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "ESP32-Connectors:ESP32-S3-CAM"
 		(layer "F.Cu")
@@ -2490,7 +2479,7 @@
 	)
 	(image
 		(at 127.03 101.932079)
-		(layer "B.Cu")
+		(layer "Dwgs.User")
 		(scale 1.71572)
 		(data "iVBORw0KGgoAAAANSUhEUgAAAMQAAAFkCAIAAADwrwNmAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOy96ZMcx5Un+N5zj4i8qwpVqAs3SII4CAE8BFIidXVP70z3bI9tt23vn7BjNvv/zH5cs+350LM7"

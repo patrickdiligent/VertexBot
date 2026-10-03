@@ -502,7 +502,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Lib/Vertex_Bot.pretty/CAM_B.step",
       "svg": "",
       "vrml": ""
     },
