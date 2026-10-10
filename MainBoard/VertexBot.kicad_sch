@@ -9167,6 +9167,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 330.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50efc571-bcbb-417f-a236-98c57589dc14")
 		)
@@ -9228,6 +9237,15 @@
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 201.93 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9308,6 +9326,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 252.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae01510a-d015-4204-85fe-d42fd736ce9f")
 		)
@@ -9368,6 +9395,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 330.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 330.2 83.82 0)
 			(effects
 				(font
@@ -9502,6 +9538,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 377.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 377.19 45.72 0)
 			(effects
 				(font
@@ -9709,6 +9754,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 240.03 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "22bdc12c-e903-4d53-b2fe-872e1a0e01fc")
 		)
@@ -9781,6 +9835,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2d27573-d793-4c99-a594-28d237f1cc9f")
 		)
@@ -9801,7 +9864,7 @@
 		(at 106.68 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1c93ec54-108b-4c5d-8af5-3b75de40690d")
@@ -9842,6 +9905,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 106.68 180.34 0)
 			(effects
 				(font
@@ -9915,6 +9987,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 312.42 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 312.42 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10059,6 +10140,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 355.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ef0437d-8981-4a32-8b35-dcf0122b629f")
 		)
@@ -10126,6 +10216,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "762a5293-3094-4231-b9aa-12da1e567bfb")
 		)
@@ -10185,6 +10284,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 224.79 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 224.79 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,6 +10371,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 355.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f367ce5-3df0-4c4e-abc9-38b93297aae8")
 		)
@@ -10330,6 +10447,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 355.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76026567-0ed8-41a0-b736-28b2db8c57e5")
 		)
@@ -10347,7 +10473,7 @@
 		(at 219.71 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "33e1926d-690f-437b-89c0-0a355e184763")
@@ -10388,6 +10514,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 219.71 129.54 0)
 			(effects
 				(font
@@ -10481,6 +10616,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 49.53 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f9eae273-4b4a-4a12-9f00-a9cb972984ab")
 		)
@@ -10542,6 +10686,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 207.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 207.01 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,6 +10770,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 231.14 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dce081d9-88cb-498e-b4df-4da73e51036f")
 		)
@@ -10678,6 +10840,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 198.12 210.82 0)
 			(effects
 				(font
@@ -10785,6 +10956,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 285.75 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ded47823-2e57-430a-8702-de217d158d45")
 		)
@@ -10884,6 +11064,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 191.77 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ff2e7a3-2a86-44a8-984f-a7f4d7d74716")
 		)
@@ -10947,6 +11136,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 377.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 377.19 83.82 0)
 			(effects
 				(font
@@ -11088,6 +11286,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65df4324-195b-473a-b0a7-b7c7d0b388ba")
 		)
@@ -11149,6 +11356,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 245.11 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,6 +11441,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "deeb5c54-7941-4915-b8ad-769637ffe799")
 		)
@@ -11290,6 +11515,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 330.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 330.2 58.42 0)
 			(effects
 				(font
@@ -11496,6 +11730,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 68.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cfe7867c-ee02-4353-bb10-581fb18a5642")
 		)
@@ -11581,7 +11824,7 @@
 		(at 44.45 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11752,6 +11995,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 44.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1f04378a-30b9-421a-97d5-9f90035c4097")
 		)
@@ -11825,6 +12077,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61848c50-24f9-487f-b741-360521d9456b")
 		)
@@ -11884,6 +12145,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 377.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 377.19 58.42 0)
 			(effects
 				(font
@@ -12155,6 +12425,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 275.59 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85170c87-3ccc-43aa-8871-23a3e12e32e2")
 		)
@@ -12216,6 +12495,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 102.87 45.72 0)
 			(effects
 				(font
@@ -12294,6 +12582,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 330.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74d7c714-0f50-4d0b-8af5-3582239031ec")
 		)
@@ -12360,6 +12657,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 279.4 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41fc8d59-e762-4bdb-9247-e67749f6979f")
 		)
@@ -12381,7 +12687,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7f4c2baf-332e-4f68-8b9b-8200227a4e98")
@@ -12423,6 +12729,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 287.02 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 287.02 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12498,6 +12813,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 289.56 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f56eba55-1e3d-498e-b1b8-a6cc05c644d1")
 		)
@@ -12561,6 +12885,15 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 68.58 139.7 0)
 			(effects
 				(font
@@ -12652,7 +12985,7 @@
 		(at 182.88 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9333112c-325f-4fb1-addf-d5debaa7f963")
@@ -12694,6 +13027,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 182.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 182.88 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12775,6 +13117,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 330.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3beb4c1b-079d-4491-be46-d1f83cc27fe8")
 		)
@@ -12833,6 +13184,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 281.94 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 281.94 220.98 0)
 			(effects
 				(font
@@ -12909,6 +13269,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 193.04 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f6e0815-c125-4a1e-a9cd-0553ba3f5f1b")
 		)
@@ -12970,6 +13339,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 194.31 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 194.31 222.25 0)
 			(effects
 				(font
@@ -13047,6 +13425,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 102.87 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a77ac931-b5a0-4b20-91aa-10790f754e69")
 		)
@@ -13067,7 +13454,7 @@
 		(at 67.31 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13107,6 +13494,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 67.31 181.61 0)
 			(effects
 				(font
@@ -13198,6 +13594,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 377.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37b990f1-a89d-4fd8-a69f-8d2e22038901")
 		)
@@ -13215,7 +13620,7 @@
 		(at 262.89 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b9b5ebcc-c57e-49b5-ac95-4ea338a69dba")
@@ -13254,6 +13659,15 @@
 			)
 		)
 		(property "Description" "I2C and LEDs ESP32-S3-CAM Connector"
+			(at 262.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 262.89 52.07 0)
 			(effects
 				(font
@@ -13508,6 +13922,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 355.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20a69f3e-9863-48f2-a89f-ac661e05f980")
 		)
@@ -13577,6 +14000,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 316.23 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 316.23 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,6 +14087,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 355.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03941410-14b7-48d5-9121-2fd8f50756c5")
 		)
@@ -13672,7 +14113,7 @@
 		(at 115.57 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13714,6 +14155,15 @@
 			)
 		)
 		(property "Description" "Voltage regulator/booster"
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 115.57 63.5 0)
 			(effects
 				(font
@@ -13802,6 +14252,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 330.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8597cd4e-0071-4a1b-acc8-2cca55f8a833")
 		)
@@ -13820,7 +14279,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cc02a210-2314-4ce4-a74b-53cc9fc193cf")
@@ -13859,6 +14318,15 @@
 			)
 		)
 		(property "Description" "I2C and LEDs ESP32-S3-CAM Connector"
+			(at 214.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 214.63 53.34 0)
 			(effects
 				(font
@@ -14038,6 +14506,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 59.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "012f0ab3-7474-4a8e-9ed8-6ceee864cabd")
 		)
@@ -14104,6 +14581,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 355.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 355.6 83.82 0)
 			(effects
 				(font
@@ -14254,6 +14740,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 228.6 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99962695-d33a-4863-88bb-d772a2ae301b")
 		)
@@ -14325,6 +14820,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3cc6b76-c95e-4446-8f9b-849c524b6be4")
 		)
@@ -14342,7 +14846,7 @@
 		(at 132.08 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "db4d71e6-3110-4b5d-8d48-1948b8a4f93d")
@@ -14383,6 +14887,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 132.08 180.34 0)
 			(effects
 				(font
@@ -14596,6 +15109,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 284.48 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7543dc7c-9027-4868-821a-3b9b908db534")
 		)
@@ -14619,7 +15141,7 @@
 		(at 82.55 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14669,6 +15191,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d45aecf2-1d1f-4ebf-abad-7a4bfa739013")
 		)
@@ -14690,7 +15221,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e27b4500-dfac-460c-adce-b627fe732337")
@@ -14732,6 +15263,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 199.39 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 199.39 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14874,6 +15414,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 377.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07ace935-d65e-4b40-9855-b1ecbd6b4f27")
 		)
@@ -15007,6 +15556,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 115.57 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54e789f1-0901-4757-8f73-ec64f8527318")
 		)
@@ -15027,7 +15585,7 @@
 		(at 66.04 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f37a6591-1817-4ecc-868d-e21badfaaf59")
@@ -15074,6 +15632,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 66.04 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "807fa71e-ae06-4fa9-8a12-3bf9b4354f83")
 		)
@@ -15109,7 +15676,7 @@
 		(at 289.56 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f38a4636-ef64-4e7f-9387-3400b8faeeef")
@@ -15150,6 +15717,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 289.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 289.56 130.81 0)
 			(effects
 				(font
@@ -15235,6 +15811,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 115.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f66bfa5-cc14-41af-980e-484f156b0bc3")
 		)
@@ -15252,7 +15837,7 @@
 		(at 257.81 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f5d599db-fd59-4b0a-9330-af633f2dfef2")
@@ -15294,6 +15879,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 257.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 257.81 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15378,6 +15972,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 377.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d99a81ea-fd4a-4864-a702-41f00d3ef4cb")
 		)
@@ -15395,7 +15998,7 @@
 		(at 74.93 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15435,6 +16038,15 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 74.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 74.93 60.96 0)
 			(effects
 				(font

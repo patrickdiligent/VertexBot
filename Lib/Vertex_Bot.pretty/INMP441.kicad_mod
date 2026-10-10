@@ -454,7 +454,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/INMP441-INMP441 I2S Microphone Module v15.step"
+	(model "${KIPRJMOD}/../Lib/Vertex_Bot.pretty/INMP441-INMP441 I2S Microphone Module v15.step"
 		(offset
 			(xyz 3.7 -2.5 12)
 		)

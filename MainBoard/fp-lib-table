@@ -2,6 +2,6 @@
   (version 7)
   (lib (name "Vertex_Bot")(type "KiCad")(uri "${KIPRJMOD}/../Lib/Vertex_Bot.pretty")(options "")(descr ""))
   (lib (name "MountingHole")(type "KiCad")(uri "${KIPRJMOD}/../Lib/MountingHole.pretty")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/KiCad-Library-master/footprints/Connector_THT_Wurth.pretty")(options "")(descr "")(disabled))
   (lib (name "Connector_THT_Wurth")(type "KiCad")(uri "${KIPRJMOD}/../Lib/Wurth/footprints/Connector_THT_Wurth.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "/${KIPRJMOD}/../Lib/espressif-kicad-addon/footprints/Espressif.pretty")(options "")(descr ""))
 )

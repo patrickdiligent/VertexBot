@@ -292,7 +292,7 @@
 		(uuid "6f3e6c40-d8fb-4283-9d31-da32b03e6aef")
 	)
 	(embedded_fonts no)
-	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/5v-step-up-step-down-voltage-regulator-s13v30f5.step"
+	(model "${KIPRJMOD}/../Lib/Vertex_Bot.pretty/5v-step-up-step-down-voltage-regulator-s13v30f5.step"
 		(offset
 			(xyz -1 6.6 10.5)
 		)

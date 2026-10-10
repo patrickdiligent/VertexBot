@@ -243,7 +243,7 @@
 		(uuid "7678746e-6080-44cb-9c1a-cfe4e45b7f6b")
 	)
 	(embedded_fonts no)
-	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/L101011MS02Q.step"
+	(model "${KIPRJMOD}/../Lib/Vertex_Bot.pretty/L101011MS02Q.step"
 		(offset
 			(xyz 4.5 -2.5 0)
 		)

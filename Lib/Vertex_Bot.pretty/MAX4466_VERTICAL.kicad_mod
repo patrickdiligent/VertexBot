@@ -238,7 +238,7 @@
 		(uuid "d4271e22-1dba-4b3e-ab60-30b83897bdb3")
 	)
 	(embedded_fonts no)
-	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/Max4466.step"
+	(model "${KIPRJMOD}/../Lib/Vertex_Bot.pretty/Max4466.step"
 		(offset
 			(xyz -2 -9.5 11)
 		)

@@ -493,7 +493,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/CAM_B.step"
+	(model "${KIPRJMOD}/../Lib/Vertex_Bot.pretty/CAM_B.step"
 		(offset
 			(xyz -1.5 -114.5 166.5)
 		)
@@ -559,19 +559,7 @@
 			(xyz 90 -0 -90)
 		)
 	)
-	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/ESP32-S3-CAM-ESP32-S3-CAM-WROOM.step"
-		(hide yes)
-		(offset
-			(xyz 11 12.5 54)
-		)
-		(scale
-			(xyz 1 1.11 1)
-		)
-		(rotate
-			(xyz -90 -0 -90)
-		)
-	)
-	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/ESP32-S3-CAM-Assembly.step"
+	(model "${KIPRJMOD}/../Lib/Vertex_Bot.pretty/ESP32-S3-CAM-Assembly.step"
 		(offset
 			(xyz 11.5 12.5 168.5)
 		)

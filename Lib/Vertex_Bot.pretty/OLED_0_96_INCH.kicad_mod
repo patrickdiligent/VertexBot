@@ -294,7 +294,7 @@
 		(uuid "f79192a2-a428-4616-a6e2-428b34cfc7f4")
 	)
 	(embedded_fonts no)
-	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/0.96'' OLED Display.step"
+	(model "${KIPRJMOD}/../Lib/Vertex_Bot.pretty/0.96'' OLED Display.step"
 		(offset
 			(xyz 12.5 -4 12)
 		)

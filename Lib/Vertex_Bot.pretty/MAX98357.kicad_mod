@@ -357,7 +357,7 @@
 		(uuid "a7b0d656-38e5-40f2-b599-17281f7721c5")
 	)
 	(embedded_fonts no)
-	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/Vertex_Bot.pretty/adafruit-MAX98357.step"
+	(model "${KIPRJMOD}/../Lib/Vertex_Bot.pretty/adafruit-MAX98357.step"
 		(offset
 			(xyz 7 -7.59 12.5)
 		)
