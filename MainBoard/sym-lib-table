@@ -5,5 +5,5 @@
   (lib (name "DRV8830")(type "KiCad")(uri "${VERTEXBOT_LIB_DIR}/DRV8830.kicad_sym")(options "")(descr ""))
   (lib (name "FUSE_0031.8211_SCH")(type "KiCad")(uri "${VERTEXBOT_LIB_DIR}/FUSE_0031.8211_SCH.kicad_sym")(options "")(descr ""))
   (lib (name "Connector_Wurth_WR-DC")(type "KiCad")(uri "${VERTEXBOT_LIB_DIR}/Wurth/symbols/Connector_Wurth_WR-DC.kicad_sym")(options "")(descr ""))
-  (lib (name "Espressif")(type "KiCad")(uri "${VERTEXBOT_LIB_DIR}/espressif-kicad-addon/symbols/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${VERTEXBOT_LIB_DIR}/espressif-kicad-addon/symbols/Espressif.kicad_sym")(options "")(descr "")(disabled)(hidden))
 )

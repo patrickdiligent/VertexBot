@@ -907,4 +907,15 @@
 		(uuid "0ca901ca-67c6-4eed-9f39-c4ad67df774e")
 	)
 	(embedded_fonts no)
+	(model "/Users/patrick/Documents/VertexBot/hardware/VertexBot/Lib/EasyEDA/MSOP-10_L3_0-W3_0-P0_50-LS5_0-BL-EP_DRV8830DGQR_C127591.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
 )

@@ -64,7 +64,7 @@
 	)
 	(fp_line
 		(start -3.9208 1.27)
-		(end -3.9208 16.57)
+		(end -3.91 18.72)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -114,7 +114,7 @@
 	)
 	(fp_line
 		(start 1.2792 -1.33)
-		(end 1.2792 16.57)
+		(end 1.2792 18.73)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -123,8 +123,8 @@
 		(uuid "cb7c9361-7597-4c5c-8f45-289251c0a20d")
 	)
 	(fp_line
-		(start 1.2792 16.57)
-		(end -3.9208 16.57)
+		(start 1.29 18.72)
+		(end -3.91 18.72)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -194,7 +194,7 @@
 	)
 	(fp_line
 		(start -4.3508 -1.8)
-		(end -4.3508 17)
+		(end -4.350751 18.839849)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -203,8 +203,8 @@
 		(uuid "71bb378e-226a-4193-8333-c47e6a6ebebe")
 	)
 	(fp_line
-		(start -4.3508 17)
-		(end 1.7492 17)
+		(start -4.350751 18.839849)
+		(end 1.75 18.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -223,7 +223,7 @@
 		(uuid "0a6dda8b-7a40-420b-90ca-5d1f576e0821")
 	)
 	(fp_line
-		(start 1.7492 17)
+		(start 1.75 18.85)
 		(end 1.7492 -1.8)
 		(stroke
 			(width 0.05)
@@ -234,7 +234,7 @@
 	)
 	(fp_line
 		(start -3.8608 -0.27)
-		(end -3.8608 16.51)
+		(end -3.87 18.76)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -243,8 +243,8 @@
 		(uuid "13ed023e-dfca-4f3d-bf9a-19adfeb1b7f5")
 	)
 	(fp_line
-		(start -3.8608 16.51)
-		(end 1.2192 16.51)
+		(start -3.86 18.76)
+		(end 1.22 18.76)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -273,7 +273,7 @@
 		(uuid "5da00387-d268-4475-b1d3-15bbd8cb97f2")
 	)
 	(fp_line
-		(start 1.2192 16.51)
+		(start 1.22 18.75)
 		(end 1.2192 -1.27)
 		(stroke
 			(width 0.1)
@@ -480,6 +480,22 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8e0e14b1-0649-47f9-83b1-459ddfba97ba")
+	)
+	(pad "15" thru_hole circle
+		(at -2.54 17.78)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67faa570-a7ae-448d-8d9f-59042d607706")
+	)
+	(pad "16" thru_hole circle
+		(at 0 17.78)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc711e6d-2825-4448-a4dc-49a841ca3a2a")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x08_P2.54mm_Vertical.step"
